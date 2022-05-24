@@ -1,11 +1,11 @@
 # PART 3 ############################################## 
 ###### Enter Gamma parameter values ###################
 # Alpha and Beta may be any positive values. 
-alpha <- 2
-beta <- 7
+alpha <- 10
+beta <- 0
 
 # Define Number of Observations
-observations <-  1000
+observations <-  10000
 
 ####### Simulation ####################################
 
@@ -48,3 +48,4 @@ Proportion <- sum(RV<4)/observations
 Proportion
 
 ##### End of Simulation ################################
+
